@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "radix-mcp",
   "private": true,
   "scripts": {
     "build": "turbo run build",
