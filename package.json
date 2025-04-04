@@ -1,5 +1,5 @@
 {
-  "name": "radix-mcp",
+  "name": "awesome-radix-mcp-servers",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.28.1",
     "prettier": "^3.5.3",
     "turbo": "^2.5.0",
     "typescript": "5.8.2"

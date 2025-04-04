@@ -1,0 +1,32 @@
+{
+  "name": "attos-world-mcp-server",
+  "version": "0.0.2",
+  "description": "attos.world MCP Server",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "bin": "./dist/index.cjs",
+  "homepage": "https://earn.attos.world",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xstelea/awesome-radix-mcp-servers.git",
+    "directory": "mcp-servers/attos-world"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup --config tsup.config.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "vitest": "^3.1.1"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
