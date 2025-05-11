@@ -1,0 +1,33 @@
+{
+  "name": "sbor-ez-mode-mcp-server",
+  "version": "0.1.2",
+  "description": "sbor-ez-mode MCP Server",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "bin": "./dist/index.cjs",
+  "homepage": "https://www.8arms1goal.com/sbor-ez-mode-ez-mode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xstelea/awesome-radix-mcp-servers.git",
+    "directory": "mcp-servers/sbor-ez-mode"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup && chmod 755 dist/index.cjs",
+    "dev": "tsx --watch ./src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "vitest": "^3.1.1"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
